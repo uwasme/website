@@ -8,12 +8,18 @@ span#time {
     font-style: italic;
 }
 
-html, body, #wrapper {
+html, body {
 	height: 100%;
 }
 
-p.blurb {
-	font-size: 30px;
+#wrapper {
+	position: relative;
+	top: 45%;
+	transform: translateY(-50%);
+}
+
+#sidebar {
+	text-align: center;
 }
 
 h1.logo {
@@ -33,10 +39,6 @@ h1.logo a {
 	color: inherit;	
 }
 
-#sidebar {
-	text-align: center;
-}
-
 #sidebar #border {
 	position: absolute;
 	right:0;
@@ -52,4 +54,8 @@ h1.logo a {
 #main-content {
 	padding-left: 30px;
 	padding-top: 20px;
+}
+
+p.blurb {
+	font-size: 2em;
 }
