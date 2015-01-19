@@ -1,20 +1,55 @@
-﻿@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+﻿@import url(http://fonts.googleapis.com/css?family=Oswald:700|Oxygen:400,300);
 
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 span#time {
     font-style: italic;
 }
 
+html, body, #wrapper {
+	height: 100%;
+}
+
+p.blurb {
+	font-size: 30px;
+}
+
 h1.logo {
     font-family: 'Oswald', sans-serif;
+	text-align: center;
 }
 
 h1.logo .uw {
     color: #ffd800;
 	background-color: #161717;
     border-radius: 50%;
-    padding: 5px;
+    padding: 7px;
+	text-decoration: none;
+}
+
+h1.logo a {
+	color: inherit;	
+}
+
+#sidebar {
+	text-align: center;
+}
+
+#sidebar #border {
+	position: absolute;
+	right:0;
+	height: 100%;
+	border-right: 3px solid #161717;
+}
+
+#sidebar #nav {
+	display: inline-block;
+	text-align: left;
+}
+
+#main-content {
+	padding-left: 30px;
+	padding-top: 20px;
 }
