@@ -1,0 +1,22 @@
+{
+  "name": "uwasme",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "http://uwasme.org",
+  "authors": [
+    "Asad Saeeduddin <masaeedu@gmail.com>"
+  ],
+  "description": "Website for UWaterloo ASME",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purecss": "~0.5.0"
+  }
+}

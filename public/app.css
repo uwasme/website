@@ -14,4 +14,7 @@ h1.logo {
 
 h1.logo .uw {
     color: #ffd800;
+	background-color: #161717;
+    border-radius: 50%;
+    padding: 5px;
 }
