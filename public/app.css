@@ -39,6 +39,29 @@ h1.logo .uw {
     padding: 7px;
 }
 
+h1.logo .asme {
+	color: #161717;
+	position: relative;
+}
+
+h1.logo .asme:before {
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	visibility: hidden;
+	-webkit-transition: all 0.1s 0.05s ease-in-out;
+	transition: all 0.1s 0.05s ease-in-out;
+}
+
+h1.logo a:hover .asme:before {
+	visibility: visible;
+	width: 100%;
+}
+
 #sidebar #border {
 	position: absolute;
 	right:0;
