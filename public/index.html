@@ -4,26 +4,28 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>UW ASME | ASME Student Branch at the University of Waterloo</title>
-		<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+		
+		<link rel="stylesheet" href="vendor/normalize.css/normalize.css" type="text/css" />		
 		<link rel="stylesheet" href="app.css" type="text/css" />
+		
+		
+		<script src="vendor/react/react.js"></script>
+		<script src="vendor/react/JSXTransformer.js"></script>
+		
+		<script src="app.jsx" type="text/jsx"></script>
 	</head>
 	<body>
-		<div id="wrapper" class="container">
-			<div class="row">
-				<div id="sidebar" class="col-md-3">
-					<div id="border" class="visible-lg-block visible-md-block"></div>
-					<h1 class="logo">
-						<a href="/"><span class="uw">UW</span> <span class="asme">ASME</span></a>
-					</h1>
-					<hr/>
-					<ol id="nav">
-						<li><a href="#">Overview</a></li>
-						<li><a href="#">Our team</a></li>
-						<li><a href="#">Get involved</a></li>
-					</ol>
+		<div id="wrapper">
+			<div id="sidebar">
+				<h1 class="logo">
+					<a href="/"><span class="uw">UW</span> <span class="asme">ASME</span></a>
+				</h1>
+				<hr/>
+				<div id="nav">
 				</div>
-				<div id="main-content" class="col-md-8">
-					<p class="blurb">Welcome! We are a small, multidisciplinary team of student volunteers, focused on cultivating leadership, career development, and a love of all things engineering.</p>
+			</div>
+			<div id="main-content">
+				<div id="tab-content">
 				</div>
 			</div>
 		</div>
