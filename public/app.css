@@ -1,30 +1,101 @@
 ﻿@import url(http://fonts.googleapis.com/css?family=Oswald:700|Oxygen:400,300);
 
+* {
+	box-sizing: border-box;
+}
+
 body {
     font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #FFF;
 }
 
-span#time {
-    font-style: italic;
+ol {
+	margin-top: 0px;
 }
 
-html, body {
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-right: 0px none;
+	border-width: 1px 0px 0px;
+	border-style: solid none none;
+	border-color: #EEE -moz-use-text-color -moz-use-text-color;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+}
+
+a {
+	color: #337AB7;
+	text-decoration: none;
+}
+
+a:focus, a:hover {
+	color: #23527C;
+	text-decoration: underline;
+}
+
+html, body, #wrapper {
 	height: 100%;
 }
 
 #wrapper {
-	position: relative;
-	top: 45%;
-	transform: translateY(-50%);
+	padding: 0 10%;
+	width: 100%;
 }
 
 #sidebar {
 	text-align: center;
 }
 
+#sidebar #nav {
+	display: inline-block;
+	text-align: left;
+}
+
+#main-content {
+	text-align: center;
+}
+
+#tab-content {
+	text-align: left;
+}
+
+@media (min-width: 992px) { 
+	#wrapper {
+		display: table;
+	}
+	#sidebar, #main-content {
+		display: table-cell;
+	}
+	#sidebar {
+		width: 25%;
+		min-width: 250px;
+		vertical-align: middle;
+		padding-right: 15px;
+	}
+	#main-content {
+		width: 100%;
+		vertical-align: middle;
+	}
+	
+	#main-content #tab-content {
+		padding-left: 30px;	
+		vertical-align: middle;	
+		border-left: 3px solid #161717;
+	}
+}
+
+
 h1.logo {
     font-family: 'Oswald', sans-serif;
-	text-align: center;
+	font-size: 36px;
+	line-height: 1.1;
 }
 
 h1.logo a {
@@ -62,23 +133,10 @@ h1.logo a:hover .asme:before {
 	width: 100%;
 }
 
-#sidebar #border {
-	position: absolute;
-	right:0;
-	height: 100%;
-	border-right: 3px solid #161717;
-}
-
-#sidebar #nav {
-	display: inline-block;
-	text-align: left;
-}
-
-#main-content {
-	padding-left: 30px;
-	padding-top: 20px;
-}
-
 p.blurb {
 	font-size: 2em;
+}
+
+.hidden {
+	display: none;
 }
