@@ -47,7 +47,7 @@ var TabPanelContainer = React.createClass({
 		return (
 			<div>
 				<TabPanel tabID='overview' visible={true}>
-					<p className='blurb'>Welcome! We are a multidisciplinary group of student volunteers dedicated to promoting student leadership, career development, and engineering innovation on campus.</p>
+					<p className='blurb'>Welcome to the ASME website! We are a multidisciplinary group of student volunteers dedicated to promoting student leadership, career development, and engineering innovation on campus.</p>
 				</TabPanel>
 				<TabPanel tabID='team'>
 					<p>Here is some stuff about our team</p>
