@@ -62,7 +62,7 @@ var TabPanelContainer = React.createClass({
 					</form>
 				</TabPanel>
 				<TabPanel tabID='site'>
-					<a href="../demo/index.html">Link to the new website</a>
+					<a href="demo/index.html">Link to the new website</a>
 				</TabPanel>
 			</div>
 		);
