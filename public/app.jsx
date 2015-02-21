@@ -61,13 +61,16 @@ var TabPanelContainer = React.createClass({
 						<button type="submit" className="btn btn-default">Submit</button>
 					</form>
 				</TabPanel>
+				<TabPanel tabID='site'>
+					<a href="../demo/index.html">Link to the new website</a>
+				</TabPanel>
 			</div>
 		);
 	}
 });
 
 React.render(
-	<TabNav tabData={{'overview': "Overview", 'team': "Our Team", 'join': "Get Involved"}} />, document.getElementById('nav')
+	<TabNav tabData={{'overview': "Overview", 'team': "Our Team", 'join': "Get Involved", 'site': "New Website"}} />, document.getElementById('nav')
 );
 
 React.render(
