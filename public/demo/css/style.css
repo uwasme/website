@@ -21,6 +21,7 @@ body {
 	background-color: #000;
 	color: #ffffff;
 	font-family: title;
+	font-size: 20px;
 	background-image: url(../rsc/home.png);
 	background-attachment: fixed;
 	background-position: center;
@@ -64,7 +65,7 @@ h1 {
 
 .navbar-nav li {
 	display: inline;
-	font-size: 20px;
+	font-size: 26px;
 	margin: 0 15px;
 }
 
@@ -108,13 +109,13 @@ h1 {
 .uw {
 	color: #E7E525;
 	font-family: myriad;
-	font-size: 150px;
+	font-size: 200px;
 }
 
 .asme {
 	color: #ffffff;
 	font-family: title;
-	font-size: 135px;
+	font-size: 180px;
 }
 
 .carousel-caption {
@@ -161,7 +162,7 @@ a.btn {
 
 
 .social-box h1 {
-	font-size: 16px;
+	font-size: 24px;
 }
 
 .social-box {
@@ -179,8 +180,12 @@ a.no-underline:hover {
 	text-decoration: none;
 }
 
-.news-container {
+#news {
+	
 	background-color: rgba(255,255,255,0.8);
+}
+
+.news-container {
 	padding: 5px 10px;
 	height: 100%;
 }
@@ -197,17 +202,17 @@ a.no-underline:hover {
 .news-item {
 	background-color: #000;
 	border-radius: 10px;
-	margin: 5px;
+	margin: 20px 5px;
 	padding: 10px;
 }
 
 .news-header {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 .news-body {
 	font-family: myriad;
-	font-size: 20px;
+	font-size: 24px;
 	padding: 5px 0;
 }
 
@@ -259,7 +264,7 @@ a.no-underline:hover {
 	vertical-align: middle;
 	line-height: normal;
 	color: #000;
-	font-size: 20px;
+	font-size: 26px;
 }
 
 .profile-desc {
