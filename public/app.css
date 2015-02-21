@@ -1,0 +1,17 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+span#time {
+    font-style: italic;
+}
+
+h1.logo {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1.logo .uw {
+    color: #ffd800;
+}
