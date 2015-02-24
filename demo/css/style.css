@@ -24,6 +24,7 @@ body {
 	background-image: url(../rsc/home.png);
 	background-attachment: fixed;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 a, b {
