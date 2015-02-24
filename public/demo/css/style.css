@@ -142,6 +142,27 @@ h1 {
 
 }
 
+.carousel-arrow {
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.carousel-left {
+	margin-left: -15px;
+
+}
+
+.carousel-right {
+	right: 50%;
+}
+
 .btn {
 	border-radius: 10px;
 	font-size: 30px;
