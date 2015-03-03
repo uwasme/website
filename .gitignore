@@ -1,2 +1,5 @@
 node_modules
-/public/vendor
+dist
+.tmp
+.sass-cache
+bower_components
